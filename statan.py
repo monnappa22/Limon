@@ -43,10 +43,14 @@ class Static:
 
     def filetype(self):
         if os.path.exists(self.file):
-            m = magic.open(magic.MAGIC_NONE)
-            m.load()
-            ftype = m.file(self.file)
-            return ftype
+            try:
+                m = magic.open(magic.MAGIC_NONE)
+                m.load()
+                ftype = m.file(self.file)
+                return ftype
+            except AttributeError:
+                ftype = magic.from_file(self.file)
+                return ftype    
         else:
             print "No such file or directory:", self.file
             sys.exit()

@@ -10,9 +10,10 @@ Setting up and Configuring Limon
 
 http://malware-unplugged.blogspot.com/2015/11/setting-up-limon-sandbox-for-analyzing.html
 
+Black Hat 2015 Europe Video Recording (Automating Linux Malware Analysis Using Limon Sandbox)
+
+https://youtu.be/fSCKyF--tRs
+
 Black Hat 2015 Europe presentation (Automating Linux Malware Analysis Using Limon Sandbox)
 
 https://www.blackhat.com/eu-15/briefings.html#automating-linux-malware-analysis-using-limon-sandbox
-
-
-
